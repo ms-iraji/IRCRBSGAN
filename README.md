@@ -49,11 +49,11 @@ Semi-supervised learning leverages both labeled and unlabeled images for model t
 
 
 ## Key Features
-Semi-supervised classification
-informative fake images 
-low-confidence images 
-individual consistency regularization
-relational consistency regularization
+-Semi-supervised classification
+-informative fake images 
+-low-confidence images 
+-individual consistency regularization
+-relational consistency regularization
 
 ## Installation and Usage
 
