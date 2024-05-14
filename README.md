@@ -42,13 +42,18 @@ Semi-supervised learning leverages both labeled and unlabeled images for model t
 ##The key contributions of our work are as follows:
 
 1-	We present a novel semi-supervised model featuring a bad generator, integrating individual and relational consistency regularization between latent data and bad fake images in low-density regions.
+
 2-	We introduce novel individual consistency regularization losses on bad fake images to improve their generation and accurately predict pseudo-labels for low-confidence unlabeled images.
+
 3-	We propose novel (inversed) relational consistency regularization losses operating on the latent vectors of bad fake images in low-density areas. This regularization technique aims to improve coherence and consistency within the latent space and the bad generated images.
 
 
 ## Key Features
-- Visual data analysis
-Semi-supervised classification, informative fake images, low-confidence images, individual consistency regularization, relational consistency regularization.
+Semi-supervised classification
+informative fake images 
+low-confidence images 
+individual consistency regularization
+relational consistency regularization
 
 ## Installation and Usage
 
@@ -62,7 +67,7 @@ To use the IRC-BSGAN algorithm, follow these steps:
 
 ## Results
 
-The CRBSGAN algorithm has been evaluated on several benchmark datasets, including  MNIST, CIFAR-10, and SVHN. The experimental results demonstrate its effectiveness in reducing error rates compared to state-of-the-art methods. For detailed results, please refer to the [Results](#results) section in the paper.
+The CRBSGAN algorithm has been evaluated on several benchmark datasets, including SVHN, CIFAR-10, COVID-19, and CINIC-10. The experimental results demonstrate its effectiveness in reducing error rates compared to state-of-the-art methods. For detailed results, please refer to the [Results](#results) section in the paper.
 
 
 ## Contributing
